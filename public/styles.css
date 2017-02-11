@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 100px;
+  width: 100vw;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: max-content;
+  min-height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+}
+.card {
+  width: 400px;
+  height: max-content;
+  border: 1px solid gray;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+}
+img {
+  width: 300px;
+  height: auto;
+}
+
+button {
+  padding: 10px;
+  background-color: red;
+}
